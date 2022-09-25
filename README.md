@@ -1,6 +1,6 @@
 # ./
 
-This template should help get you started developing with Vue 3 in Vite.
+A course list web page app by Handra Romel.
 
 ## Recommended IDE Setup
 
