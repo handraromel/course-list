@@ -33,7 +33,9 @@
           <div class="col-md-3 text-end">
             <div class="col-12 h-25">
               <p class="fw-bold">{{ course.price }}</p>
-              <p>{{ course.prevPrice }}</p>
+              <small>
+                <del>{{ course.prevPrice }}</del>
+              </small>
             </div>
             <div class="col-12 h-50 d-flex justify-content-end">
               <div class="align-self-end">
