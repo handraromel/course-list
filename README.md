@@ -1,6 +1,6 @@
 # Course list web page
 
-A course list web page app by Handra Romel.
+A course list web page by Handra Romel.
 
 ## Recommended IDE Setup
 
