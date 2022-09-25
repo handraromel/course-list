@@ -9,7 +9,8 @@
     "price": "179.000",
     "prevPrice": "1.100.000",
     "imgSrc": "thumb1.webp",
-    "dateCreated": "2022-09-25"
+    "dateCreated": "2022-09-25",
+    "liked": true
 }, {
     "id": "2",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -21,7 +22,8 @@
     "price": "279.000",
     "prevPrice": "990.000",
     "imgSrc": "thumb2.webp",
-    "dateCreated": "2022-08-25"
+    "dateCreated": "2022-08-25",
+    "liked": false
 }, {
     "id": "3",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -33,7 +35,8 @@
     "price": "159.000",
     "prevPrice": "988.000",
     "imgSrc": "thumb3.webp",
-    "dateCreated": "2022-07-25"
+    "dateCreated": "2022-07-25",
+    "liked": false
 }, {
     "id": "4",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -45,7 +48,8 @@
     "price": "169.000",
     "prevPrice": "768.000",
     "imgSrc": "thumb4.webp",
-    "dateCreated": "2022-09-25"
+    "dateCreated": "2022-09-25",
+    "liked": false
 }, {
     "id": "5",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -57,7 +61,8 @@
     "price": "150.000",
     "prevPrice": "1.200.000",
     "imgSrc": "thumb5.webp",
-    "dateCreated": "2022-07-25"
+    "dateCreated": "2022-07-25",
+    "liked": false
 }, {
     "id": "6",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -69,7 +74,8 @@
     "price": "139.000",
     "prevPrice": "1.000.000",
     "imgSrc": "thumb6.webp",
-    "dateCreated": "2022-03-25"
+    "dateCreated": "2022-03-25",
+    "liked": true
 }, {
     "id": "7",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -81,7 +87,8 @@
     "price": "119.000",
     "prevPrice": "1.150.000",
     "imgSrc": "thumb7.webp",
-    "dateCreated": "2022-01-25"
+    "dateCreated": "2022-01-25",
+    "liked": true
 }, {
     "id": "8",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -93,7 +100,8 @@
     "price": "199.000",
     "prevPrice": "990.000",
     "imgSrc": "thumb8.webp",
-    "dateCreated": "2022-01-25"
+    "dateCreated": "2022-01-25",
+    "liked": true
 }, {
     "id": "9",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -105,7 +113,8 @@
     "price": "169.000",
     "prevPrice": "700.000",
     "imgSrc": "thumb9.webp",
-    "dateCreated": "2022-06-25"
+    "dateCreated": "2022-06-25",
+    "liked": false
 }, {
     "id": "10",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -117,7 +126,8 @@
     "price": "149.000",
     "prevPrice": "750.000",
     "imgSrc": "thumb10.webp",
-    "dateCreated": "2022-09-25"
+    "dateCreated": "2022-09-25",
+    "liked": false
 }, {
     "id": "11",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -129,7 +139,8 @@
     "price": "156.000",
     "prevPrice": "780.000",
     "imgSrc": "thumb11.webp",
-    "dateCreated": "2022-02-25"
+    "dateCreated": "2022-02-25",
+    "liked": true
 }, {
     "id": "12",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -141,7 +152,8 @@
     "price": "125.000",
     "prevPrice": "900.000",
     "imgSrc": "thumb12.webp",
-    "dateCreated": "2022-01-25"
+    "dateCreated": "2022-01-25",
+    "liked": false
 }, {
     "id": "13",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -153,7 +165,8 @@
     "price": "137.000",
     "prevPrice": "800.000",
     "imgSrc": "thumb13.webp",
-    "dateCreated": "2022-02-25"
+    "dateCreated": "2022-02-25",
+    "liked": true
 }, {
     "id": "14",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -165,7 +178,8 @@
     "price": "127.000",
     "prevPrice": "870.000",
     "imgSrc": "thumb14.webp",
-    "dateCreated": "2022-03-25"
+    "dateCreated": "2022-03-25",
+    "liked": true
 }, {
     "id": "15",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -177,7 +191,8 @@
     "price": "119.000",
     "prevPrice": "770.000",
     "imgSrc": "thumb15.webp",
-    "dateCreated": "2022-04-25"
+    "dateCreated": "2022-04-25",
+    "liked": false
 }, {
     "id": "16",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -189,7 +204,8 @@
     "price": "159.000",
     "prevPrice": "890.000",
     "imgSrc": "thumb16.webp",
-    "dateCreated": "2022-05-25"
+    "dateCreated": "2022-05-25",
+    "liked": true
 }, {
     "id": "17",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -201,7 +217,8 @@
     "price": "132.000",
     "prevPrice": "670.000",
     "imgSrc": "thumb17.webp",
-    "dateCreated": "2022-06-25"
+    "dateCreated": "2022-06-25",
+    "liked": false
 }, {
     "id": "18",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -213,7 +230,8 @@
     "price": "131.000",
     "prevPrice": "880.000",
     "imgSrc": "thumb18.webp",
-    "dateCreated": "2022-07-25"
+    "dateCreated": "2022-07-25",
+    "liked": false
 }, {
     "id": "19",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -225,7 +243,8 @@
     "price": "169.000",
     "prevPrice": "990.000",
     "imgSrc": "thumb19.webp",
-    "dateCreated": "2022-09-25"
+    "dateCreated": "2022-09-25",
+    "liked": false
 }, {
     "id": "20",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -237,7 +256,8 @@
     "price": "109.000",
     "prevPrice": "880.000",
     "imgSrc": "thumb2.webp",
-    "dateCreated": "2022-03-25"
+    "dateCreated": "2022-03-25",
+    "liked": true
 }, {
     "id": "21",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -249,7 +269,8 @@
     "price": "99.000",
     "prevPrice": "880.000",
     "imgSrc": "thumb5.webp",
-    "dateCreated": "2022-03-25"
+    "dateCreated": "2022-03-25",
+    "liked": true
 }, {
     "id": "22",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -261,5 +282,6 @@
     "price": "79.000",
     "prevPrice": "880.000",
     "imgSrc": "thumb8.webp",
-    "dateCreated": "2022-02-25"
+    "dateCreated": "2022-02-25",
+    "liked": false
 }]

@@ -7,6 +7,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/courses'
+    },
+    { path: '/:pathMatch(.*)*', redirect: '/courses' },
+    {
+      path: '/courses',
       name: 'courses',
       component: CourseList
     },
@@ -17,5 +22,4 @@ const router = createRouter({
     }
   ]
 })
-
 export default router

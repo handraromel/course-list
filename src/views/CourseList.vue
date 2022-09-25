@@ -3,21 +3,21 @@
     <div class="container">
       <div class="row align-items-center min-vh-100">
         <div class="col-12 py-5">
-          <div class="col pb-5 text-end">
+          <div class="col pb-5 text-md-end text-center">
             <button
-              class="btn btn-success rounded-pill mx-1 small-btn"
+              class="btn btn-primary rounded-pill m-1 small-btn"
               @click="sortedByPrice"
             >
               sort by price
             </button>
             <button
-              class="btn btn-success rounded-pill mx-1 small-btn"
+              class="btn btn-primary rounded-pill m-1 small-btn"
               @click="sortedByReview"
             >
               sort by review
             </button>
             <button
-              class="btn btn-success rounded-pill mx-1 small-btn"
+              class="btn btn-primary rounded-pill m-1 small-btn"
               @click="sortedByRating"
             >
               sort by rating
@@ -48,23 +48,34 @@
                 </div>
               </div>
               <div class="col-12 h-25 d-flex">
-                <div class="align-self-end">
+                <div class="align-self-end my-2">
                   <router-link :to="'/course/' + course.id"
                     >Product detail</router-link
                   >
                 </div>
               </div>
             </div>
-            <div class="col-md-2 text-end">
-              <div class="col-12 h-50">
+            <div class="col-md-2 text-md-end">
+              <div class="col-12 h-25">
                 <p class="fw-bold">{{ course.price }}</p>
                 <p>{{ course.prevPrice }}</p>
               </div>
-              <div class="col-12 h-50">
-                {{ setLabel(course.dateCreated) === true ? 'NEW' : '' }}
+              <div class="col-12 h-50 d-flex justify-content-end">
+                <div class="align-self-end text-end">
+                  <StatLabel
+                    :withinDate="course.dateCreated"
+                    :courseReview="course.review"
+                    :courseRating="course.rating"
+                  />
+                </div>
+              </div>
+              <div class="col-12 h-25 d-flex justify-content-end">
+                <div class="align-self-end">
+                  <LikeStat :Liked="course.liked" />
+                </div>
               </div>
             </div>
-            <hr class="my-4" />
+            <hr class="mb-4 mt-3" />
           </div>
           <div class="row justify-content-center text-center">
             <div class="col-12 mb-3">
@@ -100,10 +111,13 @@
 <script>
 import axios from 'axios'
 import Rating from '../components/Rating.vue'
-import moment from 'moment'
+import StatLabel from '../components/StatLabel.vue'
+import LikeStat from '../components/LikeStat.vue'
 export default {
   components: {
-    Rating
+    Rating,
+    StatLabel,
+    LikeStat
   },
   data() {
     return {
@@ -118,9 +132,6 @@ export default {
     }
   },
   methods: {
-    setLabel(date) {
-      return moment(date).isBetween('2022-09-24', '2022-09-30')
-    },
     getData() {
       axios.get('data/courses.json').then((res) => {
         this.courses = res.data

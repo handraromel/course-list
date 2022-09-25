@@ -17,7 +17,12 @@
             <small>{{ course.tutor }}</small> <br />
             <small>{{ course.courseDesc }}</small>
             <div class="col-lg-2">
-              <Rating :grade="course.rating" /> {{ course.review == 0 ? 'No review yet' : course.review + 'reviews' }}
+              <Rating :grade="course.rating" />
+              {{
+                course.review == 0
+                  ? 'No review yet'
+                  : course.review + ' reviews'
+              }}
             </div>
             <div class="col mt-5">
               <router-link :to="{ name: 'courses' }"
@@ -26,8 +31,24 @@
             </div>
           </div>
           <div class="col-md-3 text-end">
-            <p class="fw-bold">{{ course.price }}</p>
-            <p>{{ course.prevPrice }}</p>
+            <div class="col-12 h-25">
+              <p class="fw-bold">{{ course.price }}</p>
+              <p>{{ course.prevPrice }}</p>
+            </div>
+            <div class="col-12 h-50 d-flex justify-content-end">
+              <div class="align-self-end">
+                <StatLabel
+                  :withinDate="course.dateCreated"
+                  :courseReview="course.review"
+                  :courseRating="course.rating"
+                />
+              </div>
+            </div>
+            <div class="col-12 h-25 d-flex justify-content-end">
+              <div class="align-self-end">
+                <LikeStat :Liked="course.liked" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -38,9 +59,14 @@
 <script>
 import axios from 'axios'
 import Rating from '../components/Rating.vue'
+import StatLabel from '../components/StatLabel.vue'
+import LikeStat from '../components/LikeStat.vue'
+
 export default {
   components: {
-    Rating
+    Rating,
+    StatLabel,
+    LikeStat
   },
   data() {
     return {
