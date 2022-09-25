@@ -1,4 +1,4 @@
-# ./
+#
 
 A course list web page app by Handra Romel.
 
